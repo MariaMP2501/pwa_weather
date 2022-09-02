@@ -18,6 +18,7 @@ const App = () => {
 
     return (
         <div className="main-container">
+            <h1 className="text-zinc-100 text-center">PWA Weather App</h1>
             <input type="text"className="search"placeholder="Search..."value={query}onChange={(e) => setQuery(e.target.value)}onKeyPress={search}/>
             {weather.main && (
                 <div className="city">

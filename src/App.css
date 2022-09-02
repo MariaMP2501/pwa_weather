@@ -5,6 +5,9 @@ html, body, #root {
     height: 100%;
     margin: 0;
 }
+h1{
+    color: #fff;
+}
 
 .main-container {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://4kwallpapers.com/images/walls/thumbs_2t/4592.png');
